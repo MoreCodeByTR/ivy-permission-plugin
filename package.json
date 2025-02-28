@@ -1,6 +1,6 @@
 {
   "name": "ivy-permission-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A React plugin for managing user permissions",
   "main": "src/index.js",
   "scripts": {
