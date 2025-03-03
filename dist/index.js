@@ -19,6 +19,7 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // src/index.ts
 var index_exports = {};
 __export(index_exports, {
+  IVY_VERSION: () => IVY_VERSION,
   Permission: () => Permission,
   PermissionProvider: () => PermissionProvider,
   usePermission: () => usePermission
@@ -55,8 +56,12 @@ var Permission = ({ roles = [], permissions = [], children, fallback = null }) =
   const hasAccess = usePermission(roles, permissions);
   return /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(import_jsx_runtime2.Fragment, { children: hasAccess ? children : fallback });
 };
+
+// src/constant.ts
+var IVY_VERSION = "1.0.0";
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
+  IVY_VERSION,
   Permission,
   PermissionProvider,
   usePermission

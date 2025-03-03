@@ -28,7 +28,11 @@ var Permission = ({ roles = [], permissions = [], children, fallback = null }) =
   const hasAccess = usePermission(roles, permissions);
   return /* @__PURE__ */ jsx2(Fragment, { children: hasAccess ? children : fallback });
 };
+
+// src/constant.ts
+var IVY_VERSION = "1.0.0";
 export {
+  IVY_VERSION,
   Permission,
   PermissionProvider,
   usePermission

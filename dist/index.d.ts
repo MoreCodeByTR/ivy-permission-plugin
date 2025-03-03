@@ -18,4 +18,6 @@ type PermissionProps = {
 };
 declare const Permission: ({ roles, permissions, children, fallback }: PermissionProps) => react_jsx_runtime.JSX.Element;
 
-export { Permission, PermissionProvider, usePermission };
+declare const IVY_VERSION = "1.0.0";
+
+export { IVY_VERSION, Permission, PermissionProvider, usePermission };
