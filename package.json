@@ -1,12 +1,12 @@
 {
   "name": "ivy-permission-plugin",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A React plugin for managing user permissions",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "exports": {
-    "import": "./dist/index.esm.js",
+    "import": "./dist/index.js",
     "require": "./dist/index.js"
   },
   "scripts": {
